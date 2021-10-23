@@ -30,6 +30,16 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+#header {
+  border: solid 2px black;
+  background-color: rgb(8, 25, 175);
+  color: white;
+  border-radius: 5px;
+  max-width: 40%;
+  margin: auto;
+  padding: 13px;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -74,7 +84,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(8, 25, 175);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -112,7 +122,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px solid #c0c7cf;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
