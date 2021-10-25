@@ -32,23 +32,24 @@ header {
 
 #header {
   border: solid 2px black;
-  background-color: rgb(8, 25, 175);
+  background-color: #00487c;
   color: white;
   border-radius: 5px;
-  max-width: 40%;
+  min-width: 40%;
   margin: auto;
+  margin-bottom: 1em;
   padding: 13px;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
-  border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  border: double 2px black;
+  box-shadow: 0 0 30px 6px hsl(206, 17%, 28%);
   color: hsl(206, 17%, 28%);
-  font-size: 18px;
+  font-size: 1em;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 96%;
   padding: 30px 40px;
 }
 
@@ -84,7 +85,7 @@ header {
 
 .btn {
   border: none;
-  background-color: rgb(8, 25, 175);
+  background-color: #00487c;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
